@@ -95,13 +95,16 @@
 		<property name="length">
 			<value>21.025668934240361</value>
 		</property>
+		<property name="volume">
+			<value>1.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{386b16c8-6289-450c-9a56-e0de07abe81d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{96a8bc91-f276-42bd-b8df-8b0297314a2f}">
 		<property name="volume">
-			<value>1.5</value>
+			<value>3.5</value>
 		</property>
 		<property name="name">
 			<value>Ambience</value>
@@ -148,6 +151,9 @@
 	<object class="SFXReverbEffect" id="{acfabe35-875d-4bbb-8f4c-e45a5bc616fe}">
 		<property name="decayTime">
 			<value>3800</value>
+		</property>
+		<property name="earlyDelay">
+			<value>25</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{a178dbbf-95ec-466c-bc8f-43b87a637e38}" />
